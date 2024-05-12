@@ -1,0 +1,30 @@
+.iconBox{
+    background-color: #ffffff;
+    margin: 10px;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: 2px 1px  5px rgba(0, 0, 0, 0.2); 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    padding-top:15px;
+   
+}
+.iconBox:hover{
+    box-shadow: 5px 5px  5px rgba(0, 0, 0, 0.2); 
+}
+.div1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 80%;
+    margin: auto;
+justify-content: space-between;
+height: 200px;
+margin-bottom: 80px;
+}
+.cons{
+    font-size: 50px;
+    color: #014b85;
+}

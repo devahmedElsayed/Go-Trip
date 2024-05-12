@@ -1,0 +1,59 @@
+.footer_container{
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    background:url(../../Assest/footer_bg.jpg);
+    height: 600px;
+    display: flex;
+    line-height: 40px;
+    color: #ced9e1;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    gap: 5%;
+}
+.foot2 ,.foot3,.foot4{
+    width: 20%;
+    margin: auto;
+    margin-top: -2px;
+
+}
+.foot1{
+    width: 22%;
+    line-height: 30px;
+}
+ul li{
+    list-style: none;
+}
+.footer h2{
+    color: white;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: left;
+    margin-top: -100px;
+    color: white;
+    margin-left: 50px;
+}
+.footer_b1 .foot_span{
+    color: #ffa801 !important;
+    font-family: sans-serif;
+}
+.footer_b2{
+margin-right: 55px;
+display: flex;
+gap: 30px;
+font-size: 20px;
+color: #656768;
+
+}
+.icon_foot:hover{
+    color: white;
+    transform: scale(1.1);
+}

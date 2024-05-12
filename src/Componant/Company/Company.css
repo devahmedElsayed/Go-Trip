@@ -1,0 +1,81 @@
+.support{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+    margin-top: 50px;
+}
+.sup_left{
+    position: relative;
+}
+.sup_left .borderimg{
+border: 9px solid rgba(0,0,0,0.2) ;
+    width:470px;
+    height: 600px;
+    z-index: 1;
+    position: absolute;
+    top: 15px;
+    left: -30px;
+}
+
+.sup_left .borderimg .sup_img{
+top: 30px;
+z-index: -1;
+ left: 50px;
+ height: auto;
+}
+.since{
+    background-color: rgba(1,75,133,0.8);
+    width:300px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotate: 270deg;
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    color: #ffe42c;
+    font-size: 50px;
+    font-weight:bolder;
+    font-family: "Barlow Condensed";
+}
+.sup_right{
+    line-height: 35px;
+    font-size: 20px;
+
+}
+.sup_right span{
+    color: #ffb400;
+    font-family: sans-serif;
+
+}
+
+.sup_text{
+    margin-bottom: 50px;
+}
+.check_sup input  {
+    margin-left: 20px;
+   
+}
+.sup_right button{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 180px;
+    height: 60px;
+    border: 2px solid #014b85;
+    color: #014b85;
+    background: none;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.sup_right button:hover{
+    background-color: #014b85;
+    transition: background-color 0.5s, transform 0.1s ;
+    color: white;
+}

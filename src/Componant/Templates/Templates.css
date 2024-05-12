@@ -1,0 +1,99 @@
+.card{
+    border: 1px solid #eee;
+box-sizing: border-box;
+    margin: 5px auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.tempimg{
+width: 100%;
+padding: 0;
+}
+.imgbox{
+    overflow: hidden;
+    height: 300px;
+}
+.tempimg:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    
+}
+.star{
+    display: flex;
+    padding: 10px;
+    padding-left: 25px;
+    gap: 5px;
+}
+.star .starColor{
+    color: gold;
+}
+.star .starText{
+    color: #9c9c9c;
+    font-size: 16px;
+}
+.head-temp{
+    padding-left: 25px;
+    margin: auto;
+    width: 300px;
+    font-size: 20px;
+}
+.div_salary{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    align-items: center;
+
+}
+.div_salary .cost {
+    color: #4cafa4;
+    font-weight: 600;
+    font-size: 20px;
+}
+.div_salary .person{
+    color: #9c9c9c;
+    font-weight: 600;
+
+}
+.timeLine{
+    border-radius: 100%;
+    height: 0.4px;
+    width: 80%;
+    margin: auto;
+    background-color: #9c9c9c;
+    opacity: 0.1;
+}
+.timer{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 50px;
+    padding-left: 10px;
+    align-items: center;
+    gap: 50px;
+    color: #9c9c9c;
+}
+.time , .location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.card_template .card_p , .card_h{
+    text-align: center;
+    line-height: 50px;
+}
+.card_p{
+    color: gold;
+    font-size: 16px;
+}
+.card_h{
+    font-size: 50px;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,39 @@
+.founder{
+    width: 100%;
+    height:700px;
+    margin: auto;
+    background-image:url(../../Assest/testimonial_bg.jpg);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.founder_top{
+    margin-top: 150px;
+}
+.founder_center{
+    font-size: 30px;
+    width: 62%;
+    margin: auto;
+    color: #00233f;
+}
+.founder_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.founder_bottom p{
+    width: 150px;
+    font-size: 25px;
+    color: white;
+    line-height: 20px;
+}
+.founder_bottom span{
+    font-family: sans-serif;
+    color: white;
+
+
+}
